@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    min-height: 100vh;
+}
+
+.img-container {
+    display: flex;
+    width: 500px;
+    height: 300px;
+    border-radius: 10px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+}
+
+.icon1 {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    margin-left: 18px;
+    left: 30%;
+    color: white;
+    cursor: pointer;
+}
+
+.icon2 {
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    right: 30%;
+    color: white;
+    cursor: pointer;
+}
